@@ -21,8 +21,13 @@ public class NewWebService {
     /**
      * This is a sample web service operation
      */
-    @WebMethod(operationName = "hello")
-    public String hello(@WebParam(name = "name") String txt) {
-        return "Hello " + txt + " !";
+   
+    /**
+     * Web service operation
+     */
+    @WebMethod(operationName = "Somma")
+    public int Somma(int x,int y) {
+        //TODO write your implementation code here:
+        return x+y;
     }
 }
