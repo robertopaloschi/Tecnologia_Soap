@@ -24,6 +24,9 @@ public class NewWebService {
    
     /**
      * Web service operation
+     * @param x
+     * @param y
+     * @return 
      */
     @WebMethod(operationName = "Somma")
     public int Somma(int x,int y) {
